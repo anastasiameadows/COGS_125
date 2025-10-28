@@ -1,12 +1,15 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://anastasiameadows.github.io/COGS_125",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "react": "19.2.0",
