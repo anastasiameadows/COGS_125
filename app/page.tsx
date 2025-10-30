@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[500px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-1 items-center sm:items-start">
-        <h1>Anastasia Meadows</h1>
+        <h1 className="transition-transform duration-200 hover:scale-110">Anastasia Meadows</h1>
           <p className="-mt-6">UI/UX Designer @ UCSD</p>
       
         <div className="flex gap-4 items-center flex-col sm:flex-row">
