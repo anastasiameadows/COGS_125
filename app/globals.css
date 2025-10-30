@@ -2,8 +2,8 @@
 
 
 :root {
-  --background: #431D39;
-  --foreground: #FFFAF2;
+  --background: #e7e4db;
+  --foreground: #431D39;
 }
 
 @theme inline {
@@ -15,13 +15,8 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-space-mono), mono;
-  cursor: url('/Wii Cursor.cur'), auto;
-
 }
 
-a:hover {
-  cursor: url('/wii-grab-ccw.cur'), pointer;
-}
 
 h1 {
   font-size: 48px;
