@@ -22,6 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Favicon */}
+        <link rel="icon" href="https://64.media.tumblr.com/tumblr_ma6tcpX6ES1qid2nw.gif" />
+      </head>
       <body
         className={`${spaceMono.variable} antialiased`}
       >
