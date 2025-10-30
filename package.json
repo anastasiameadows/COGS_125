@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postexport": "shx touch out/.nojekyll",
     "start": "next start",
     "lint": "eslint",
     "predeploy": "npm run build",
@@ -20,6 +19,7 @@
     "autoprefixer": "^10.4.21",
     "eslint": "^9.38.0",
     "eslint-config-next": "^16.0.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.38",
     "shx": "^0.4.0",
     "tailwindcss": "^4.1.16",
